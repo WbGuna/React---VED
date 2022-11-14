@@ -1,0 +1,35 @@
+.checkout-style {
+    font-style: inherit;
+    vertical-align: inherit;
+}
+
+.disblock {
+    display: none;
+}
+
+.iconCard {
+    width: 50px;
+    height: 40px;
+}
+
+.title-subs{
+    font-weight: normal;
+}
+
+.boleto {
+    resize: none;
+    border: none;
+    width: 400px;
+    height: 100px;
+    font-size: 26px;
+    padding: 6px;
+    text-align: center; 
+    background-color: #ffff;
+} 
+
+
+
+.pix{
+    background-color: #ffff; 
+    padding:2px
+}

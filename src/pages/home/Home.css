@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+ 
+
+.bannergif{
+  width: 100;
+}
+
+
+
+@media (max-width: 560px) { 
+   .banner{
+       display:none;
+    
+   }
+
+ }

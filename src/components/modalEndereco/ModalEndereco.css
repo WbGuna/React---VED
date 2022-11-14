@@ -1,0 +1,38 @@
+.btn-suport{
+
+        color: white; 
+        background-color: #198754;
+        height: 50px;
+    
+}
+
+.mocall{
+    background-color: #1987540f;
+    border-radius: 2px;
+    border-bottom: 1px solid black;
+} 
+
+.btn-suport:hover{
+    background-color: #156b43;
+    border-color: #198754;
+}
+
+.btn-delete {
+    background-color: #757a78;
+    border-color: #757a78;
+    color: white;
+    width: 120px;
+}
+
+.btn-delete:hover {
+    background-color: #636866;
+    border-color: #636866;
+    color: rgb(250, 234, 234);
+}
+
+
+
+@media (min-width:770px){
+#master{columns: 12;}
+
+}

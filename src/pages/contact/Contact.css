@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    }
+    
+        
+    
+    h3{
+        color: #28a745;
+        font-size: clamp(1.20em, 1em + 2vw, 2em);
+    }
+    
+    p{   
+        font-size: clamp(1em, 1em + 1vw, 1.25em);
+    }
+    
+    div.clname{
+        text-align:left;
+    }
+    
+    div.clemail{
+        text-align:left;
+    }
+    div.classunto{
+        text-align:left;
+    }
+    
+    div.clmensagem{
+        text-align:left;
+    }
+    
+    textarea {
+        resize: none;
+        width: 150px;
+        height: 150px;
+    }
+      
+    
+
+    
+    

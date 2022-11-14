@@ -1,0 +1,15 @@
+.container{
+    text-align: justify;    
+}
+
+.about2{
+    color: #28a745;
+    font-size: clamp(1.50em, 1em + 3vw, 1.75em);
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: clamp(1em, 1em + 1vw, 1.25em);
+}
+

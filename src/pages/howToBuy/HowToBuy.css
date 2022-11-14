@@ -1,0 +1,17 @@
+
+p{
+    font-size: clamp(1em, 1em + 1vw, 1.25em);
+}
+
+@media (max-width: 4000px) { 
+    .telamenor1{display: none;}
+    .telaxxl1 {display:block}
+    }
+    
+     @media (max-width: 576px) { 
+    
+        .telamenor1{display: block;}
+        .telaxxl1 {display:none}
+    
+    }
+

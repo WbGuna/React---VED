@@ -1,0 +1,31 @@
+.caminho{
+    color:blue; 
+    margin-left: 20px
+}
+
+.analise{
+    color: orange;
+    margin-left: 20px
+} 
+
+.cancelado{
+    color: red;
+    margin-left: 20px
+}
+
+.entregue{
+    color: green;
+    margin-left: 20px
+}
+
+
+
+.size-text{
+    font-size: 22px;
+    font-weight:400;
+}
+
+.tabela a {
+    text-decoration: none;
+    color: #000000;
+}

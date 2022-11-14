@@ -1,0 +1,27 @@
+p a {
+  color: #070063;
+}
+
+p a:hover {
+	color: #54043c;
+	text-decoration: none;
+}
+
+.a-blue {
+  color: white !important;
+  background-color: #218838;
+}
+
+
+
+
+
+.coral {
+  color: #218838;
+}
+
+
+.forms {
+  background-color: #ededed;
+  border-radius: 5px;
+}

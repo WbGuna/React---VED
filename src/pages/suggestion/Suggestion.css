@@ -1,0 +1,143 @@
+body{font-weight: family=fruktur;
+    font-size: 20px
+
+}
+
+.primeiroAB {margin-left: 10px;}
+.segundoAB {margin-left: 10px;}
+
+.ponto
+{
+    list-style-type: disc;
+
+}
+
+.sugest2{
+    color: #28a745;
+    font-size: clamp(1.30em, 1em + 3vw, 1.50em); 
+    font-weight: bold;
+}
+
+
+
+
+.imagemsugestao {
+    width: 300px;
+}
+
+.product-card {
+    width: 250px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf;
+    margin: 10px auto;
+    background: #fafafa;
+}
+
+
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px; 
+  
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-details {
+    padding: 15px;
+}
+
+.product-catagory {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.product-details h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+/* houver do titulo */
+.product-details h4 a:hover {
+    color: #00ff40;
+}
+
+.product-details p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.product-bottom-details {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.product-bottom-details div {
+    float: left;
+    width: 100%;
+}
+
+.product-price {
+    font-size: 24px;
+    color: #ffb625;
+    font-weight: 600;   
+    margin-top: -10px;
+}
+
+.product-price small {
+    font-size: 90%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.product-links {
+    text-align: right;
+}
+
+.product-links a {
+    display: flex;
+  flex-wrap: wrap;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.product-links a:hover {
+    color: #0c6d1c;
+} 
+
+
+@media (max-width: 992px){
+    .imagemsugestao { display :none }
+    .imgresp{display:block}
+    }
+
+  @media (min-width: 992px){
+        .imgresp{display:none}
+    }
+
+@media (max-whidth:576px){
+.segundoAB{text-align: justify;
+
+}
+
+}

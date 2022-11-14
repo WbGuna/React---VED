@@ -1,0 +1,180 @@
+/***************************************HEADER BEGIN***********************************/
+header {
+    background-color: #54043c;
+    margin: 0;
+}
+
+
+/***************************************BUTTON SEARCH BEGIN***********************************/
+
+/***************************************BUTTON SEARCH END***********************************/
+
+.title-canvas {
+    color: white;
+}
+
+.icon-config::before {
+    display: block;
+    content: " ";
+    height: 50px;
+    width: 100%;
+    background-position: center center;
+    background-size: 50px;
+    background-repeat: no-repeat;
+}
+
+.icon-perfil::before {
+    background-image: url(../asserts/imagens/Users_icon/account.png);
+}
+
+.icon-fav::before {
+    background-image: url(../asserts/imagens/Users_icon/favorito.png);
+}
+
+.icon-cesta::before {
+    background-image: url(../asserts/imagens/Users_icon/shopping-cart.png);
+}
+
+.bg-position {
+    position: relative;
+    top: -54px;
+    left: 10px;
+    display: none;
+}
+
+
+.bg-position-mobile {
+    position: relative;
+    top: -15px;
+    left: 80px;
+    display: none;
+}
+
+.icon-user {
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+/***************************************HEADER END***********************************/
+.offcanvas {
+    background-color: #1b925a;
+}
+
+
+.dropdown-toggle:active {
+    color: #54043c;
+}
+
+.offcanvas-body a {
+    margin-right: 2px;
+    font-size: 25px;
+}
+
+.card-body {
+    background-color: #1b925a;
+    color: #fff;
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+
+.header-fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+}
+
+.input-search {
+    width: 40px;
+    height: 39px;
+    border: 1px solid #198754;
+    border-right: none;
+}
+
+
+.bg-cest{
+    position: absolute;
+    top: 14px;
+}
+
+header a:hover {
+    color: #1b925a;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.ul-canvas-header a {
+    padding: 0;
+    font-weight: 10px;
+}
+
+
+.itensabaixocanvas:hover {
+    color: #54043c;
+
+}
+
+
+
+@media (max-width: 576px) {
+    .logo-img {
+        display: none;
+    }
+
+    .icon-user {
+        display: none;
+    }
+
+    .search-mobile {
+        margin-bottom: 15px;
+    }
+
+    .canvas-mobile {
+        display: flex;
+    }
+
+
+}
+
+
+@media (max-width:768px) {
+    .icon-user {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .logo-img {
+        display: none;
+    }
+
+    .block-null {
+        display: none;
+    }
+
+    .canvas-mobile {
+        display: flex;
+
+    }
+}
+
+
+
+@media (min-width:770px) {
+    .canvas-mobile {
+        display: none;
+
+    }
+}

@@ -1,0 +1,37 @@
+.item{
+ 
+    background-color: #c4c4c4;
+    border: 2px solid #000000;
+    border-radius: 5px; /*faz os cantos ficarem arredondados*/
+    font-size: 20px;
+}
+
+
+.topo{
+    margin-top: 30px;
+}
+
+.plan2{
+    margin-top: 30px;
+    color: rgb(85, 79, 79);
+    font-size: clamp(1.75em, 1em + 1vw, 2.5em);
+    font-weight: bold;
+}
+
+.plansh1{
+  
+    color: #28a745;
+    /* font-size: clamp(1.75em, 1em + 1vw, 2.5em); */ 
+    padding: 0px !important; 
+}
+
+.termos-h2{
+    word-break:break-all;
+    font-size: clamp(1.75em, 1em + 1vw, 2.5em);
+    font-weight: bold;
+    color: #28a745;
+}
+
+.texto-p{
+    font-size: 16px;
+}

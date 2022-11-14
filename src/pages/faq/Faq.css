@@ -1,0 +1,12 @@
+
+
+.faq2{
+    color: #28a745;
+    font-size: clamp(1.30em, 1em + 3vw, 1.75em);
+    font-weight: bold;
+
+}
+
+p{
+    font-size: clamp(1em, 1em + 1vw, 1.25em);
+}

@@ -1,0 +1,25 @@
+
+.titulo{
+    text-align: center;
+    color: #28a745;
+    margin-top: 10px;
+  
+}
+
+.principal{
+    color: rgb(236, 10, 10); 
+    margin-top: 5px;
+    padding: 10px;
+    
+}
+.sub{
+    color: rgb(70, 10, 236); 
+    margin-top: 5px;
+    padding: 10px;
+} 
+
+
+.sub-title{
+    text-align: left; 
+    color: #28a745;
+}

@@ -1,0 +1,41 @@
+
+
+.cor-nav{
+    background-color: #198754; 
+    border: 1px solid #198754;
+    margin-right: 20px;
+ }
+
+.list-group-item-action:hover{
+    background-color: #198754;
+    color: white;
+}
+
+.menu-title{
+    color: white;
+    
+} 
+
+
+.li-item-canvas{
+    color: white;
+}
+
+
+.menu-lateral-canvas{
+    display: none;
+}
+
+.nav-item-canvas{
+    color: white;
+}
+
+
+@media(max-width:768px){
+    .menu-lateral-mobile{
+        display: none
+    }
+    .menu-lateral-canvas{
+        display: block;
+    }
+}

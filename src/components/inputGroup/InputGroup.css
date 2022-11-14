@@ -1,0 +1,27 @@
+.text-input{
+    text-align: left !important; 
+    color: rgb(75, 75, 75); 
+    margin: 0 !important;
+} 
+
+
+.aa{
+    margin-top: -30px;
+}
+
+.displayFeedbackOk {
+    display: "d-flex"; 
+   
+}
+
+.displayFeedbackError{
+    display: none;
+}
+
+.msg-error {
+    color: red;
+}
+
+.msg-success {
+    color: green;
+} 
